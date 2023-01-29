@@ -12,19 +12,24 @@
     <style>
       /* Add styles for page */
       body {
+  background-color: black;
+}
+
+      body {
         font-family: Arial, sans-serif;
       }
       
       h1 {
         text-align: center;
         margin: 2em 0;
+        color: #4154f1;
       }
       
       form {
         max-width: 600px;
         margin: 2em auto;
         padding: 2em;
-        border: 1px solid #ccc;
+        border: 1px solid #4154f1;
         border-radius: 5px;
       }
       
@@ -35,12 +40,12 @@
         padding: 0.5em;
         font-size: 1em;
         margin-bottom: 1em;
-        border: 1px solid #ccc;
+        border: 1px solid #4154f1;
         border-radius: 3px;
       }
       
       input[type="submit"] {
-        background-color: #4CAF50;
+        background-color: #4154f1;
         color: white;
         padding: 0.5em 1em;
         border-radius: 3px;
@@ -49,18 +54,22 @@
       }
       
       .success-message {
-        background-color: #4CAF50;
+        background-color: #4154f1;
         color: white;
         padding: 1em;
         border-radius: 3px;
         margin-top: 1em;
         display: none;
       }
+      
+      label[for="subject"] {
+        color: #4154f1;
+      }
     </style>
   </head>
   <body>
     <h1>Contact Support</h1>
-    <h1>We are always here to help you </h1>
+    <h1>We are always here to help you</h1>
     <form action="https://formsubmit.co/solutionsprocopy@gmail.com" method="POST">
       <input type="text" id="name" name="name" placeholder="Your Name" required> 
       
